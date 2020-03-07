@@ -1,21 +1,16 @@
 {
   "name": "egg-dubbo-ts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Dubbo plugin for egg",
   "eggPlugin": {
     "name": "dubbo"
   },
-  "main": "dist/index.js",
   "keywords": [
     "egg",
     "eggPlugin",
     "egg-plugin",
     "dubbo",
     "rpc"
-  ],
-  "files": [
-    "dist",
-    "typings"
   ],
   "scripts": {
     "build": "tsc -d"
