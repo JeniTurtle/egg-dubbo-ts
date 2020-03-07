@@ -1,6 +1,6 @@
 {
   "name": "egg-dubbo-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dubbo plugin for egg",
   "eggPlugin": {
     "name": "dubbo"
@@ -14,7 +14,8 @@
     "rpc"
   ],
   "files": [
-    "dist"
+    "dist",
+    "typings"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json"
