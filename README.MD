@@ -55,7 +55,6 @@ config.dubbo = {
 
 ```typescript
 // 中间件示例代码
-import { PROVIDER_CONTEXT_STATUS } from 'node-dubbo-ts';
 import { SystemUnknownError } from '../exception';
 
 export async function responseHandler(ctx, next) {
@@ -71,8 +70,6 @@ export async function responseHandler(ctx, next) {
       code: error.code,
       error: error.error,
     };
-  } finally {
-    ctx.rpcContext.status = PROVIDER_CONTEXT_STATUS.OK;
   }
 }
 ```

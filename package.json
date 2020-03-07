@@ -1,6 +1,6 @@
 {
   "name": "egg-dubbo-ts",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Dubbo plugin for egg",
   "eggPlugin": {
     "name": "dubbo"

@@ -11,6 +11,7 @@ logs/
 *.swp
 *.lock
 *.ts
+!*.d.ts
 example/
 !.autod.conf.js
 !dependency/**/*.js
@@ -18,6 +19,5 @@ test/**/*.ts
 app/**/*.mapq
 test/**/*.map
 config/**/*.map
-typings/app
-typings/config
 yarn-error.log
+tsconfig.json
