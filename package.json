@@ -1,6 +1,6 @@
 {
   "name": "egg-dubbo-ts",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Dubbo plugin for egg",
   "eggPlugin": {
     "name": "dubbo"
@@ -18,7 +18,7 @@
     "typings"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -d"
   },
   "dependencies": {
     "class-transformer": "^0.2.3",
