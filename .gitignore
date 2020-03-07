@@ -10,3 +10,6 @@ perf
 npm-debug.log
 .vscode
 tsconfig.tsbuildinfo
+*.js
+*.d.ts
+!typings
