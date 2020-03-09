@@ -7,7 +7,17 @@ import { RequireDefault } from '../utils';
 import { ProviderServiceChunkMethodParametersOptions, ProviderServiceChunkMethodParametersSchema } from 'node-dubbo-ts';
 
 export default async function addProviderService(app: Application) {
-  const files = await globby(app.config.dubbo.serviceDirs || [], { cwd: app.baseDir });
+  let dirs = (app.config.dubbo.serviceDirs || []).slice(0);
+  if (app.config.env !== 'local') {
+    for (const index in dirs) {
+      if (dirs[index] && dirs[index].lastIndexOf('.d.ts') < 0) {
+        dirs[index] = dirs[index].replace(/\.ts$/, '.js');
+      }
+    }
+  }
+
+  dirs = Array.from(new Set(dirs));
+  const files = await globby(dirs, { cwd: app.baseDir });
   files.forEach((file: string) => {
     file = path.resolve(app.baseDir, file);
     const service = RequireDefault(file);
