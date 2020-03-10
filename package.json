@@ -1,6 +1,6 @@
 {
   "name": "egg-dubbo-ts",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "Dubbo plugin for egg",
   "eggPlugin": {
     "name": "dubbo"
@@ -23,7 +23,7 @@
     "is-type-of": "^1.2.1",
     "js-to-java": "^2.6.1",
     "lodash": "^4.17.15",
-    "node-dubbo-ts": "^1.0.4",
+    "node-dubbo-ts": "^1.0.5",
     "reflect-metadata": "^0.1.13",
     "typedi": "^0.8.0",
     "uuid": "^3.3.3"

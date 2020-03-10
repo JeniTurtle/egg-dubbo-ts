@@ -51,7 +51,6 @@ export const start = async (app: Application) => {
         const composed = compose<Context>(middlewares.concat(bindedMiddlewares));
         await composed(eggContext).catch(e => app.logger.error(e));
         ctx.status = PROVIDER_CONTEXT_STATUS.OK;
-        eggContext.logger.info(ctx.body);
         Container.reset(eggContext[contextId]);
         next();
       } catch (err) {
