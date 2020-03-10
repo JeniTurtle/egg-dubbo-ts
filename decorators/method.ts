@@ -56,6 +56,7 @@ export function Method(target, property, descriptor) {
       }
       return respObj;
     }
+    return ret;
   };
   Reflect.defineMetadata(namespace.RPC_METHOD, true, descriptor.value);
   return descriptor;
