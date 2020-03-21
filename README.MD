@@ -5,7 +5,7 @@
 #### 安装步骤：
 ```
 npm install egg-dubbo-ts
-yarn add egg-dubbo
+yarn add egg-dubbo-ts
 ```
 
 #### 配置方式：
