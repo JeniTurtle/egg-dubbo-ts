@@ -441,9 +441,9 @@ acorn-es7-plugin@^1.0.10, acorn-es7-plugin@^1.0.12:
   integrity sha1-8u4fMiipDurRJF+asZIusucdM2s=
 
 acorn@^5.0.0:
-  version "5.7.3"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 address@>=0.0.1, address@^1.0.1:
   version "1.1.2"
@@ -4707,10 +4707,10 @@ no-case@^2.2.0, no-case@^2.3.2:
   dependencies:
     lower-case "^1.1.1"
 
-node-dubbo-ts@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/node-dubbo-ts/download/node-dubbo-ts-1.0.4.tgz#e061b986c4d2ba362eb90cc98aa23fe1898bb3a7"
-  integrity sha1-4GG5hsTSujYuuQzJiqI/4YmLs6c=
+node-dubbo-ts@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/node-dubbo-ts/-/node-dubbo-ts-1.0.5.tgz#5e55ec191b557c7a7d31ca89dd0a1bf959d95c44"
+  integrity sha512-IgjcxlXce3bqpZF2XndHTBX6wMsF+Ck3VxssG89sVwmFNbJc/POyoA2Od/hKjNPwMOx3GzULAZP5f98cvB8jiw==
   dependencies:
     "@evio/intersect" "^1.0.4"
     "@nelts/utils" "^1.0.19"
