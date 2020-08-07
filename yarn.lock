@@ -1749,10 +1749,10 @@ circular-json-for-egg@^1.0.0:
   resolved "https://registry.npm.taobao.org/circular-json-for-egg/download/circular-json-for-egg-1.0.0.tgz#eacb71b57af28b4822cabc52a5961cd2f0817fc5"
   integrity sha1-6stxtXryi0giyrxSpZYc0vCBf8U=
 
-class-transformer@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npm.taobao.org/class-transformer/download/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
-  integrity sha1-WYySynHcynP5HMuHXXSjhHzPoy0=
+class-transformer@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.3.1.tgz#ee681a5439ff2230fc57f5056412d3befa70d597"
+  integrity sha512-cKFwohpJbuMovS8xVLmn8N2AUbAuc8pVo4zEfsUVo8qgECOogns1WVk/FkOZoxhOPTyTYFckuoH+13FO+MQ8GA==
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -4707,10 +4707,10 @@ no-case@^2.2.0, no-case@^2.3.2:
   dependencies:
     lower-case "^1.1.1"
 
-node-dubbo-ts@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/node-dubbo-ts/download/node-dubbo-ts-1.0.4.tgz#e061b986c4d2ba362eb90cc98aa23fe1898bb3a7"
-  integrity sha1-4GG5hsTSujYuuQzJiqI/4YmLs6c=
+node-dubbo-ts@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/node-dubbo-ts/-/node-dubbo-ts-1.0.5.tgz#5e55ec191b557c7a7d31ca89dd0a1bf959d95c44"
+  integrity sha512-IgjcxlXce3bqpZF2XndHTBX6wMsF+Ck3VxssG89sVwmFNbJc/POyoA2Od/hKjNPwMOx3GzULAZP5f98cvB8jiw==
   dependencies:
     "@evio/intersect" "^1.0.4"
     "@nelts/utils" "^1.0.19"
