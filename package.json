@@ -16,7 +16,7 @@
     "build": "tsc -d"
   },
   "dependencies": {
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.9.1",
     "egg": "^2.6.1",
     "globby": "^9.2.0",
