@@ -3649,9 +3649,9 @@ inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
 
 ini@^1.3.4:
-  version "1.3.5"
-  resolved "https://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inspector-proxy@^1.2.1:
   version "1.2.1"
@@ -4707,10 +4707,10 @@ no-case@^2.2.0, no-case@^2.3.2:
   dependencies:
     lower-case "^1.1.1"
 
-node-dubbo-ts@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/node-dubbo-ts/download/node-dubbo-ts-1.0.4.tgz#e061b986c4d2ba362eb90cc98aa23fe1898bb3a7"
-  integrity sha1-4GG5hsTSujYuuQzJiqI/4YmLs6c=
+node-dubbo-ts@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/node-dubbo-ts/-/node-dubbo-ts-1.0.7.tgz#096d0df3a98dd8d7104c6c40f822f1d34b6bc3c6"
+  integrity sha512-orvu0FEi/N0G9tEDxvk/Gbzj39InEULyyzxk9VNxTaKM+lpBfvEb2sNONW8uU/CrhpJ7vwtrfBvP+NQL8sdOkA==
   dependencies:
     "@evio/intersect" "^1.0.4"
     "@nelts/utils" "^1.0.19"
