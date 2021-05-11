@@ -4300,9 +4300,9 @@ lodash.flattendeep@^4.4.0:
   integrity sha1-+wMJF/hqMTTlvJvsDWngAT3f7bI=
 
 lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@2.2.0:
   version "2.2.0"
@@ -4707,10 +4707,10 @@ no-case@^2.2.0, no-case@^2.3.2:
   dependencies:
     lower-case "^1.1.1"
 
-node-dubbo-ts@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/node-dubbo-ts/download/node-dubbo-ts-1.0.4.tgz#e061b986c4d2ba362eb90cc98aa23fe1898bb3a7"
-  integrity sha1-4GG5hsTSujYuuQzJiqI/4YmLs6c=
+node-dubbo-ts@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/node-dubbo-ts/-/node-dubbo-ts-1.0.7.tgz#096d0df3a98dd8d7104c6c40f822f1d34b6bc3c6"
+  integrity sha512-orvu0FEi/N0G9tEDxvk/Gbzj39InEULyyzxk9VNxTaKM+lpBfvEb2sNONW8uU/CrhpJ7vwtrfBvP+NQL8sdOkA==
   dependencies:
     "@evio/intersect" "^1.0.4"
     "@nelts/utils" "^1.0.19"
