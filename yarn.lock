@@ -2125,9 +2125,9 @@ decamelize@^1.1.1, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.0:
   version "1.1.1"
@@ -4707,10 +4707,10 @@ no-case@^2.2.0, no-case@^2.3.2:
   dependencies:
     lower-case "^1.1.1"
 
-node-dubbo-ts@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/node-dubbo-ts/download/node-dubbo-ts-1.0.4.tgz#e061b986c4d2ba362eb90cc98aa23fe1898bb3a7"
-  integrity sha1-4GG5hsTSujYuuQzJiqI/4YmLs6c=
+node-dubbo-ts@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/node-dubbo-ts/-/node-dubbo-ts-1.0.7.tgz#096d0df3a98dd8d7104c6c40f822f1d34b6bc3c6"
+  integrity sha512-orvu0FEi/N0G9tEDxvk/Gbzj39InEULyyzxk9VNxTaKM+lpBfvEb2sNONW8uU/CrhpJ7vwtrfBvP+NQL8sdOkA==
   dependencies:
     "@evio/intersect" "^1.0.4"
     "@nelts/utils" "^1.0.19"
