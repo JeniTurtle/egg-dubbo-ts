@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.9.1",
+    "class-validator": "^0.14.0",
     "egg": "^2.6.1",
     "globby": "^9.2.0",
     "is-type-of": "^1.2.1",
